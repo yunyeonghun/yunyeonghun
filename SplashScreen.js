@@ -28,11 +28,11 @@ const SplashScreen = ({navigation}) => {
     <View style={styles.container}>
       <Image
         source={require('../src/Pet-logo.png')}
-        style={{width: wp(55), resizeMode: 'contain', margin: 30}}
+        style={{width: '80%', resizeMode: 'contain', margin: 30}}
       />
       <ActivityIndicator
         animating={animating}
-        color="#50611c"
+        color="#647a23"
         size="large"
         style={styles.activityIndicator}
       />
