@@ -27,12 +27,12 @@ const SplashScreen = ({navigation}) => {
   return (
     <View style={styles.container}>
       <Image
-        source={require('../src/viva-logo-with-txt.png')}
+        source={require('../src/Pet-logo.png')}
         style={{width: wp(55), resizeMode: 'contain', margin: 30}}
       />
       <ActivityIndicator
         animating={animating}
-        color="#6990F7"
+        color="#50611c"
         size="large"
         style={styles.activityIndicator}
       />
@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: 'white',
+    backgroundColor: '#f8f8d9',
   },
   activityIndicator: {
     alignItems: 'center',
